@@ -1,7 +1,20 @@
 #!/bin/bash
-sudo apt update -y || true
-sudo apt install -y openjdk-17-jdk python3-pip autoconf automake libtool pkg-config python3-dev || true
+
+# Sistem güncellemesi (Render izin verdiği kadar)
+sudo apt-get update -y || true
+
+# Java JDK kurulumu (Android derleme için gerekli)
+sudo apt-get install -y openjdk-17-jdk || true
+
+# Python ortamı ve araçlar
 pip install --upgrade pip setuptools wheel
+
+# Buildozer ve bağımlılıkları
 pip install buildozer cython virtualenv
-pip install distutils   # ✅ eksik modül burada yükleniyor
+
+# distutils modülü artık setuptools içinde, o yüzden ekstra gerek yok
+# Ancak pip cache tazelemek için:
+pip install --upgrade setuptools
+
+# Derleme
 buildozer -v android debug
