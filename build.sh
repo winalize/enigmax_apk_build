@@ -1,17 +1,20 @@
 #!/bin/bash
+set -e
 
-# Render ortamında sudo kullanılamaz, o yüzden Java'yı manuel olarak indiriyoruz
-echo "Downloading and setting up OpenJDK 17..."
-mkdir -p /tmp/java
-curl -L -o /tmp/java/openjdk.tar.gz https://download.java.net/java/GA/jdk17/0d483a2b78e04e6c9ad9a8e9f3b82a58/35/GPL/openjdk-17_linux-x64_bin.tar.gz
-tar -xzf /tmp/java/openjdk.tar.gz -C /tmp/java
-export JAVA_HOME=/tmp/java/jdk-17
-export PATH=$JAVA_HOME/bin:$PATH
-java -version
-
-# Python ortamını hazırlıyoruz
+# Python ortamını hazırla
 pip install --upgrade pip setuptools wheel
 pip install buildozer cython virtualenv
 
-# Derleme işlemi
+# Java JDK 17 kurulumu (Adoptium)
+echo "Installing OpenJDK 17..."
+mkdir -p /tmp/jdk
+curl -L -o /tmp/jdk/openjdk17.tar.gz https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.11_9.tar.gz
+tar -xzf /tmp/jdk/openjdk17.tar.gz -C /tmp/jdk
+export JAVA_HOME=$(find /tmp/jdk -type d -name "jdk-17*" | head -n 1)
+export PATH=$JAVA_HOME/bin:$PATH
+
+echo "Java version check:"
+java -version || echo "Java not found!"
+
+# Derleme başlat
 buildozer -v android debug
