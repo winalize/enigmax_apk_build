@@ -11,3 +11,5 @@ if [ -n "$APK_PATH" ]; then
 else
   echo "No APK file found!"
 fi
+echo "🔍 Searching for APK files in workspace..."
+find / -type f -name "*.apk" 2>/dev/null || echo "No APK found in system."
