@@ -1,77 +1,79 @@
-## Disclaimer
+🇹🇷 Türkçe – Yasal Bildirim
 
-Enigmax is a data and statistics application. The information shown in the app is provided for informational purposes only and does not constitute financial advice, betting advice, or a guarantee of any outcome.
+Enigmax, istatistiksel veriler ve algoritmik analizler kullanarak yalnızca bilgilendirme amaçlı içerik sunan bir veri ve analiz uygulamasıdır. Uygulamada yer alan bilgiler; finansal danışmanlık, yatırım danışmanlığı, bahis danışmanlığı veya herhangi bir sonucun ya da kazancın garantisi niteliği taşımaz.
 
-All decisions and actions taken based on the content of the app are solely the user’s responsibility. Enigmax and Winalize Sports do not accept any liability for any direct or indirect loss arising from the use of the app.
+Uygulama içerisinde sunulan analizler, tahminler, istatistikler ve yorumlar kesinlik içermez. Bu içeriklere dayanılarak alınan tüm kararlar ve gerçekleştirilen işlemler tamamen kullanıcının kendi sorumluluğundadır.
 
-The app does not provide betting services, does not accept payments for betting, and does not require membership or subscriptions.
+Enigmax ve Winalize Sports; uygulamanın kullanımından, uygulamada yer alan içeriklere dayanılarak alınan kararlardan veya bu kararlar sonucunda ortaya çıkabilecek doğrudan ya da dolaylı hiçbir maddi veya manevi zarardan sorumlu tutulamaz.
 
----
-### Türkçe
-## Sorumluluk Reddi
+Uygulama bahis hizmeti sunmaz, bahis oynatmaz, bahis için ödeme almaz ve üyelik veya abonelik gerektirmez.
 
-Enigmax bir veri ve istatistik uygulamasıdır. Uygulamada sunulan bilgiler yalnızca bilgilendirme amaçlıdır; finansal danışmanlık, bahis danışmanlığı veya herhangi bir sonucun garantisi niteliği taşımaz.
+🇬🇧 English – Legal Notice
 
-Uygulamada yer alan içeriklere dayanarak alınacak tüm kararlar ve gerçekleştirilecek tüm işlemler tamamen kullanıcının sorumluluğundadır. Enigmax ve Winalize Sports, uygulamanın kullanımından doğabilecek doğrudan veya dolaylı hiçbir zarardan sorumlu tutulamaz.
+Enigmax is a data and analysis application that provides content for informational purposes only, using statistical data and algorithmic analyses. The information presented in the application does not constitute financial advice, investment advice, betting advice, or a guarantee of any outcome or profit.
 
-Uygulama bahis hizmeti sunmaz, bahis için ödeme almaz ve üyelik veya abonelik gerektirmez.
+The analyses, predictions, statistics, and interpretations provided within the application are not definitive. All decisions made and actions taken based on this content are entirely the responsibility of the user.
 
----
-### Deutsch
-## Haftungsausschluss
+Enigmax and Winalize Sports shall not be held liable for any direct or indirect material or non-material damages arising from the use of the application or from decisions made based on its content.
 
-Enigmax ist eine Daten- und Statistik-Anwendung. Die in der App bereitgestellten Informationen dienen ausschließlich Informationszwecken und stellen weder eine Finanzberatung, Wettberatung noch eine Garantie für ein bestimmtes Ergebnis dar.
+The application does not provide betting services, does not accept payments for betting, and does not require membership or subscription.
 
-Alle Entscheidungen und Handlungen, die auf Grundlage der Inhalte der App getroffen werden, liegen ausschließlich in der Verantwortung des Nutzers. Enigmax und Winalize Sports übernehmen keinerlei Haftung für direkte oder indirekte Schäden, die aus der Nutzung der App entstehen.
+🇩🇪 Deutsch – Rechtlicher Hinweis
 
-Die App bietet keine Wett-Dienstleistungen an, nimmt keine Zahlungen für Wetten entgegen und erfordert keine Mitgliedschaft oder Abonnements.
+Enigmax ist eine Daten- und Analyseanwendung, die mithilfe statistischer Daten und algorithmischer Analysen Inhalte ausschließlich zu Informationszwecken bereitstellt. Die in der Anwendung enthaltenen Informationen stellen keine Finanzberatung, Anlageberatung, Wettberatung oder Garantie für ein bestimmtes Ergebnis oder einen Gewinn dar.
 
----
-### Français
-## Clause de non-responsabilité
+Die innerhalb der Anwendung bereitgestellten Analysen, Prognosen, Statistiken und Bewertungen sind nicht verbindlich. Alle auf Grundlage dieser Inhalte getroffenen Entscheidungen und durchgeführten Handlungen erfolgen ausschließlich auf eigene Verantwortung des Nutzers.
 
-Enigmax est une application de données et de statistiques. Les informations présentées dans l’application sont fournies uniquement à titre informatif et ne constituent ni un conseil financier, ni un conseil en matière de paris, ni une garantie de résultat.
+Enigmax und Winalize Sports übernehmen keine Haftung für direkte oder indirekte materielle oder immaterielle Schäden, die aus der Nutzung der Anwendung oder aus Entscheidungen auf Grundlage der bereitgestellten Inhalte entstehen.
 
-Toutes les décisions et actions prises sur la base du contenu de l’application relèvent de la seule responsabilité de l’utilisateur. Enigmax et Winalize Sports déclinent toute responsabilité en cas de pertes directes ou indirectes résultant de l’utilisation de l’application.
+Die Anwendung bietet keine Wett-Dienstleistungen an, nimmt keine Zahlungen für Wetten entgegen und erfordert keine Mitgliedschaft oder ein Abonnement.
 
-L’application ne propose aucun service de paris, n’accepte aucun paiement lié aux paris et ne nécessite ni inscription ni abonnement.
+🇫🇷 Français – Mention Légale
 
----
-### Italiano
-## Dichiarazione di non responsabilità
+Enigmax est une application de données et d’analyse qui fournit des contenus uniquement à des fins d’information, sur la base de données statistiques et d’analyses algorithmiques. Les informations présentées ne constituent pas un conseil financier, un conseil en investissement, un conseil en paris ni une garantie de résultat ou de gain.
 
-Enigmax è un’applicazione di dati e statistiche. Le informazioni mostrate nell’app sono fornite esclusivamente a scopo informativo e non costituiscono consulenza finanziaria, consulenza sulle scommesse né una garanzia di risultato.
+Les analyses, prévisions, statistiques et commentaires proposés dans l’application ne sont pas définitifs. Toutes les décisions prises et actions entreprises sur la base de ces contenus relèvent de la seule responsabilité de l’utilisateur.
 
-Tutte le decisioni e le azioni intraprese sulla base dei contenuti dell’app sono di esclusiva responsabilità dell’utente. Enigmax e Winalize Sports non si assumono alcuna responsabilità per eventuali perdite dirette o indirette derivanti dall’uso dell’app.
+Enigmax et Winalize Sports ne sauraient être tenus responsables de tout dommage direct ou indirect, matériel ou immatériel, résultant de l’utilisation de l’application ou des décisions prises sur la base de son contenu.
 
-L’app non fornisce servizi di scommessa, non accetta pagamenti per scommesse e non richiede iscrizioni o abbonamenti.
+L’application ne propose aucun service de paris, n’accepte aucun paiement lié aux paris et ne nécessite aucun abonnement ou adhésion.
 
----
-### Español
-## Descargo de responsabilidad
+🇮🇹 Italiano – Avvertenza Legale
 
-Enigmax es una aplicación de datos y estadísticas. La información mostrada en la aplicación se proporciona únicamente con fines informativos y no constituye asesoramiento financiero, asesoramiento sobre apuestas ni una garantía de resultados.
+Enigmax è un’applicazione di dati e analisi che fornisce contenuti esclusivamente a scopo informativo, utilizzando dati statistici e analisi algoritmiche. Le informazioni presenti nell’applicazione non costituiscono consulenza finanziaria, consulenza sugli investimenti, consulenza sulle scommesse né una garanzia di risultati o profitti.
 
-Todas las decisiones y acciones tomadas en base al contenido de la aplicación son responsabilidad exclusiva del usuario. Enigmax y Winalize Sports no asumen ninguna responsabilidad por pérdidas directas o indirectas derivadas del uso de la aplicación.
+Le analisi, le previsioni, le statistiche e le valutazioni fornite all’interno dell’applicazione non sono definitive. Tutte le decisioni prese e le azioni intraprese sulla base di tali contenuti sono sotto la totale responsabilità dell’utente.
 
-La aplicación no ofrece servicios de apuestas, no acepta pagos relacionados con apuestas y no requiere membresía ni suscripciones.
+Enigmax e Winalize Sports non possono essere ritenuti responsabili per eventuali danni diretti o indiretti, materiali o immateriali, derivanti dall’uso dell’applicazione o da decisioni basate sui suoi contenuti.
 
----
-### Português
-## Isenção de Responsabilidade
+L’applicazione non fornisce servizi di scommesse, non accetta pagamenti per scommesse e non richiede alcuna iscrizione o abbonamento.
 
-Enigmax é um aplicativo de dados e estatísticas. As informações apresentadas no aplicativo são fornecidas apenas para fins informativos e não constituem aconselhamento financeiro, aconselhamento sobre apostas ou garantia de resultados.
+🇪🇸 Español – Aviso Legal
 
-Todas as decisões e ações tomadas com base no conteúdo do aplicativo são de inteira responsabilidade do usuário. Enigmax e Winalize Sports não se responsabilizam por quaisquer perdas diretas ou indiretas decorrentes do uso do aplicativo.
+Enigmax es una aplicación de datos y análisis que ofrece contenido únicamente con fines informativos, utilizando datos estadísticos y análisis algorítmicos. La información proporcionada no constituye asesoramiento financiero, asesoramiento de inversión, asesoramiento en apuestas ni garantía de ningún resultado o ganancia.
 
-O aplicativo não oferece serviços de apostas, não aceita pagamentos para apostas e não exige associação ou assinaturas.
+Los análisis, predicciones, estadísticas y comentarios incluidos en la aplicación no son definitivos. Todas las decisiones tomadas y acciones realizadas basándose en dichos contenidos son responsabilidad exclusiva del usuario.
 
----
-### Русский
-## Отказ от ответственности
+Enigmax y Winalize Sports no se hacen responsables de ningún daño directo o indirecto, material o inmaterial, que pueda derivarse del uso de la aplicación o de decisiones tomadas en base a su contenido.
 
-Enigmax — это приложение для работы с данными и статистикой. Информация, представленная в приложении, носит исключительно информационный характер и не является финансовой консультацией, рекомендацией по ставкам или гарантией какого-либо результата.
+La aplicación no ofrece servicios de apuestas, no acepta pagos relacionados con apuestas y no requiere suscripción ni afiliación.
 
-Все решения и действия, принимаемые на основе содержания приложения, осуществляются исключительно на ответственность пользователя. Enigmax и Winalize Sports не несут ответственности за любые прямые или косвенные убытки, возникшие в результате использования приложения.
+🇵🇹 Português – Aviso Legal
 
-Приложение не предоставляет услуг по приёму ставок, не принимает платежи за ставки и не требует регистрации или подписки.
+Enigmax é uma aplicação de dados e análises que fornece conteúdos exclusivamente para fins informativos, utilizando dados estatísticos e análises algorítmicas. As informações apresentadas não constituem aconselhamento financeiro, aconselhamento de investimento, aconselhamento sobre apostas nem garantem qualquer resultado ou lucro.
+
+As análises, previsões, estatísticas e interpretações disponibilizadas na aplicação não são definitivas. Todas as decisões tomadas e ações realizadas com base nesses conteúdos são de inteira responsabilidade do utilizador.
+
+A Enigmax e a Winalize Sports não se responsabilizam por quaisquer danos diretos ou indiretos, materiais ou imateriais, resultantes da utilização da aplicação ou de decisões tomadas com base no seu conteúdo.
+
+A aplicação não oferece serviços de apostas, não aceita pagamentos relacionados com apostas e não requer adesão ou subscrição.
+
+🇷🇺 Русский – Юридическое уведомление
+
+Enigmax — это приложение для анализа данных, которое предоставляет контент исключительно в информационных целях, используя статистические данные и алгоритмический анализ. Информация, представленная в приложении, не является финансовой консультацией, инвестиционной консультацией, консультацией по ставкам и не гарантирует какой-либо результат или прибыль.
+
+Анализы, прогнозы, статистика и комментарии, представленные в приложении, не являются окончательными. Все решения и действия, предпринятые на основе данной информации, осуществляются исключительно на ответственность пользователя.
+
+Enigmax и Winalize Sports не несут ответственности за любые прямые или косвенные материальные или нематериальные убытки, возникшие в результате использования приложения или решений, принятых на основе его содержания.
+
+Приложение не предоставляет услуг по приему ставок, не принимает платежи за ставки и не требует регистрации или подписки.
