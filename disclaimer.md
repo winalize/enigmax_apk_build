@@ -8,6 +8,8 @@ Enigmax ve Winalize Sports; uygulamanın kullanımından, uygulamada yer alan i�
 
 Uygulama bahis hizmeti sunmaz, bahis oynatmaz, bahis için ödeme almaz ve üyelik veya abonelik gerektirmez.
 
+************************************************************************************************
+
 🇬🇧 English – Legal Notice
 
 Enigmax is a data and analysis application that provides content for informational purposes only, using statistical data and algorithmic analyses. The information presented in the application does not constitute financial advice, investment advice, betting advice, or a guarantee of any outcome or profit.
@@ -17,6 +19,8 @@ The analyses, predictions, statistics, and interpretations provided within the a
 Enigmax and Winalize Sports shall not be held liable for any direct or indirect material or non-material damages arising from the use of the application or from decisions made based on its content.
 
 The application does not provide betting services, does not accept payments for betting, and does not require membership or subscription.
+
+************************************************************************************************
 
 🇩🇪 Deutsch – Rechtlicher Hinweis
 
@@ -28,6 +32,8 @@ Enigmax und Winalize Sports übernehmen keine Haftung für direkte oder indirekt
 
 Die Anwendung bietet keine Wett-Dienstleistungen an, nimmt keine Zahlungen für Wetten entgegen und erfordert keine Mitgliedschaft oder ein Abonnement.
 
+************************************************************************************************
+
 🇫🇷 Français – Mention Légale
 
 Enigmax est une application de données et d’analyse qui fournit des contenus uniquement à des fins d’information, sur la base de données statistiques et d’analyses algorithmiques. Les informations présentées ne constituent pas un conseil financier, un conseil en investissement, un conseil en paris ni une garantie de résultat ou de gain.
@@ -37,6 +43,8 @@ Les analyses, prévisions, statistiques et commentaires proposés dans l’appli
 Enigmax et Winalize Sports ne sauraient être tenus responsables de tout dommage direct ou indirect, matériel ou immatériel, résultant de l’utilisation de l’application ou des décisions prises sur la base de son contenu.
 
 L’application ne propose aucun service de paris, n’accepte aucun paiement lié aux paris et ne nécessite aucun abonnement ou adhésion.
+
+************************************************************************************************
 
 🇮🇹 Italiano – Avvertenza Legale
 
@@ -48,6 +56,8 @@ Enigmax e Winalize Sports non possono essere ritenuti responsabili per eventuali
 
 L’applicazione non fornisce servizi di scommesse, non accetta pagamenti per scommesse e non richiede alcuna iscrizione o abbonamento.
 
+************************************************************************************************
+
 🇪🇸 Español – Aviso Legal
 
 Enigmax es una aplicación de datos y análisis que ofrece contenido únicamente con fines informativos, utilizando datos estadísticos y análisis algorítmicos. La información proporcionada no constituye asesoramiento financiero, asesoramiento de inversión, asesoramiento en apuestas ni garantía de ningún resultado o ganancia.
@@ -58,6 +68,8 @@ Enigmax y Winalize Sports no se hacen responsables de ningún daño directo o in
 
 La aplicación no ofrece servicios de apuestas, no acepta pagos relacionados con apuestas y no requiere suscripción ni afiliación.
 
+************************************************************************************************
+
 🇵🇹 Português – Aviso Legal
 
 Enigmax é uma aplicação de dados e análises que fornece conteúdos exclusivamente para fins informativos, utilizando dados estatísticos e análises algorítmicas. As informações apresentadas não constituem aconselhamento financeiro, aconselhamento de investimento, aconselhamento sobre apostas nem garantem qualquer resultado ou lucro.
@@ -67,6 +79,8 @@ As análises, previsões, estatísticas e interpretações disponibilizadas na a
 A Enigmax e a Winalize Sports não se responsabilizam por quaisquer danos diretos ou indiretos, materiais ou imateriais, resultantes da utilização da aplicação ou de decisões tomadas com base no seu conteúdo.
 
 A aplicação não oferece serviços de apostas, não aceita pagamentos relacionados com apostas e não requer adesão ou subscrição.
+
+************************************************************************************************
 
 🇷🇺 Русский – Юридическое уведомление
 
