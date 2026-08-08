@@ -38,3 +38,11 @@ DigitalOcean'a özel android.sdk_path=/opt/android_sdk değeri GitHub Actions s�
 $ANDROID_SDK_ROOT olarak değiştirilir. Buildozer/p4a'nın talep ettiği Android SDK
 Build-Tools 37.0.0 da önceden kurulur. Target SDK yine 36'dır; build-tools 37
 targetSdkVersion değerini değiştirmez.
+
+V4 P4A / SDKMANAGER FIX:
+- Buildozer'un kendi klonladığı python-for-android artık v2024.01.21 sürümüne pinlenir.
+  Pip ile python-for-android kurmak Buildozer'un klonunu kontrol etmediği için kaldırıldı.
+- Buildozer 1.5.0'ın kullandığı legacy $ANDROID_SDK_ROOT/tools/bin/sdkmanager yolu,
+  GitHub runner'daki modern cmdline-tools/16.0 sdkmanager'a symlink edilir.
+- Böylece Java 17 altında eski sdkmanager'ın javax.xml.bind/XmlSchema hatası engellenir.
+- sh paketi stabil p4a hattıyla uyumlu olacak şekilde <2 olarak pinlenir.

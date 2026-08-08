@@ -29,14 +29,24 @@ jobs:
           echo "ANDROIDSDK=$ANDROID_SDK_ROOT" >> "$GITHUB_ENV"
           echo "ANDROIDNDK=$ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
           echo "ANDROID_NDK_HOME=$ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
+          sudo mkdir -p "$ANDROID_SDK_ROOT/tools/bin"
+          sudo ln -sf "$ANDROID_SDK_ROOT/cmdline-tools/16.0/bin/sdkmanager" "$ANDROID_SDK_ROOT/tools/bin/sdkmanager"
+          sudo ln -sf "$ANDROID_SDK_ROOT/cmdline-tools/16.0/bin/avdmanager" "$ANDROID_SDK_ROOT/tools/bin/avdmanager"
+
           sed -i "s|^android.sdk_path *=.*|android.sdk_path = $ANDROID_SDK_ROOT|" buildozer.spec
           sed -i "s|^android.ndk_path *=.*|android.ndk_path = $ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}|" buildozer.spec
           sed -i "s|^build_dir *=.*|build_dir = $GITHUB_WORKSPACE/.buildozer|" buildozer.spec
           sed -i "s|^bin_dir *=.*|bin_dir = $GITHUB_WORKSPACE/bin|" buildozer.spec
+          if grep -qE '^\s*p4a\.branch\s*=' buildozer.spec; then
+            sed -i 's|^\s*p4a\.branch\s*=.*|p4a.branch = v2024.01.21|' buildozer.spec
+          else
+            printf '\np4a.branch = v2024.01.21\n' >> buildozer.spec
+          fi
+
       - name: Buildozer toolchain
         run: |
           python -m pip install --upgrade pip setuptools wheel
-          pip install buildozer==1.5.0 cython==0.29.33 python-for-android==2024.01.21
+          pip install buildozer==1.5.0 cython==0.29.33 "sh<2"
       - name: Restore signing key
         env:
           KEYSTORE_B64: ${{ secrets.ENIGMAX_KEYSTORE_B64 }}
