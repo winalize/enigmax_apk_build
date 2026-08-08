@@ -32,3 +32,9 @@ V2 GITHUB PATH FIX:
 DigitalOcean'a özel /root/winalize_build yolları GitHub Actions sırasında
 $GITHUB_WORKSPACE/.buildozer ve $GITHUB_WORKSPACE/bin olarak geçici değiştirilir.
 Kaynak buildozer.spec içindeki sunucu ayarları kalıcı olarak değiştirilmez.
+
+V3 SDK/LICENSE FIX:
+DigitalOcean'a özel android.sdk_path=/opt/android_sdk değeri GitHub Actions sırasında
+$ANDROID_SDK_ROOT olarak değiştirilir. Buildozer/p4a'nın talep ettiği Android SDK
+Build-Tools 37.0.0 da önceden kurulur. Target SDK yine 36'dır; build-tools 37
+targetSdkVersion değerini değiştirmez.

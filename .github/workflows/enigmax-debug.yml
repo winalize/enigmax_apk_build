@@ -25,12 +25,13 @@ jobs:
       - name: Android API 36 and NDK r28c
         run: |
           yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" "ndk;${ANDROID_NDK_VERSION}"
+          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" "build-tools;37.0.0" "ndk;${ANDROID_NDK_VERSION}"
           echo "ANDROIDSDK=$ANDROID_SDK_ROOT" >> "$GITHUB_ENV"
           echo "ANDROIDNDK=$ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
           echo "ANDROID_NDK_HOME=$ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
       - name: Adapt server paths for GitHub
         run: |
+          sed -i "s|^android.sdk_path *=.*|android.sdk_path = $ANDROID_SDK_ROOT|" buildozer.spec
           sed -i "s|^android.ndk_path *=.*|android.ndk_path = $ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}|" buildozer.spec
           sed -i "s|^build_dir *=.*|build_dir = $GITHUB_WORKSPACE/.buildozer|" buildozer.spec
           sed -i "s|^bin_dir *=.*|bin_dir = $GITHUB_WORKSPACE/bin|" buildozer.spec
