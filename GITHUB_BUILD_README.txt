@@ -27,3 +27,8 @@ GitHub build PASS = release hazır demek değildir.
 ENIGMAX SÜRÜM KONTROL PROTOKOLÜ V1 telefon testleri tamamlanmadan production AAB yayınlanmaz.
 FAIL = RELEASE YOK
 SKIP = RELEASE YOK
+
+V2 GITHUB PATH FIX:
+DigitalOcean'a özel /root/winalize_build yolları GitHub Actions sırasında
+$GITHUB_WORKSPACE/.buildozer ve $GITHUB_WORKSPACE/bin olarak geçici değiştirilir.
+Kaynak buildozer.spec içindeki sunucu ayarları kalıcı olarak değiştirilmez.
