@@ -46,3 +46,11 @@ V4 P4A / SDKMANAGER FIX:
   GitHub runner'daki modern cmdline-tools/16.0 sdkmanager'a symlink edilir.
 - Böylece Java 17 altında eski sdkmanager'ın javax.xml.bind/XmlSchema hatası engellenir.
 - sh paketi stabil p4a hattıyla uyumlu olacak şekilde <2 olarak pinlenir.
+
+V5 PACKAGEDEBUG DIAGNOSTIC FIX:
+- buildozer.spec içindeki android.gradle_dependencies satırı tek satır/temiz forma getirildi.
+  Önceki biçimde dependency değerlerinin başına literal '\\n' geçiyordu.
+- Buildozer packageDebug aşamasında fail ederse workflow otomatik olarak Gradle'ı
+  --stacktrace --info ile tekrar çalıştırır.
+- gradle-diagnostic.log ve problems-report.html artifact içine eklenir.
+Bu değişiklik uygulama iş mantığına dokunmaz.

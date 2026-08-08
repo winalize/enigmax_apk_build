@@ -58,15 +58,37 @@ jobs:
             .buildozer
           key: enigmax-156-api36-r28c-${{ runner.os }}-${{ hashFiles('buildozer.spec') }}
       - name: Build debug APK
+        id: build_debug
+        continue-on-error: true
         run: |
           set -o pipefail
           buildozer -v android debug 2>&1 | tee build-debug.log
+
+      - name: Deep Gradle diagnostics on failure
+        if: steps.build_debug.outcome == 'failure'
+        run: |
+          set +e
+          DIST_DIR="$(find "$GITHUB_WORKSPACE/.buildozer/android/platform" -type f -name gradlew -path "*/dists/enigmax/*" -printf '%h\n' | head -n1)"
+          echo "DIST_DIR=$DIST_DIR" | tee gradle-diagnostic.log
+          if [ -n "$DIST_DIR" ]; then
+            cd "$DIST_DIR"
+            ./gradlew assembleDebug --stacktrace --info 2>&1 | tee -a "$GITHUB_WORKSPACE/gradle-diagnostic.log"
+            find build/reports -type f -maxdepth 5 -print 2>/dev/null | tee -a "$GITHUB_WORKSPACE/gradle-diagnostic.log"
+          else
+            echo "Gradle dist directory not found." | tee -a "$GITHUB_WORKSPACE/gradle-diagnostic.log"
+          fi
+
+      - name: Fail job if APK build failed
+        if: steps.build_debug.outcome == 'failure'
+        run: exit 1
       - name: Collect
         if: always()
         run: |
           mkdir -p ci-artifacts
           find bin -maxdepth 1 -type f -name "*.apk" -exec cp -v {} ci-artifacts/ \; 2>/dev/null || true
           cp build-debug.log ci-artifacts/ 2>/dev/null || true
+          cp gradle-diagnostic.log ci-artifacts/ 2>/dev/null || true
+          find "$GITHUB_WORKSPACE/.buildozer/android/platform" -path "*/build/reports/problems/problems-report.html" -exec cp -v {} ci-artifacts/ \; 2>/dev/null || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -39,13 +39,7 @@ requirements = python3==3.9.18,hostpython3==3.9.18,kivy==2.2.1,requests,pillow==
 
 android.meta_data = com.google.android.gms.ads.APPLICATION_ID=ca-app-pub-6634280715968284~9009912665
 
-android.gradle_dependencies = \
-    androidx.appcompat:appcompat:1.6.1,\
-    com.google.android.material:material:1.11.0,\
-    androidx.gridlayout:gridlayout:1.0.0,\
-    com.google.android.gms:play-services-ads:24.9.0,\
-    com.google.android.play:review:2.0.2,\
-    com.google.android.gms:play-services-tasks:18.2.0
+android.gradle_dependencies = androidx.appcompat:appcompat:1.6.1,com.google.android.material:material:1.11.0,androidx.gridlayout:gridlayout:1.0.0,com.google.android.gms:play-services-ads:24.9.0,com.google.android.play:review:2.0.2,com.google.android.gms:play-services-tasks:18.2.0
 
 android.build_type = release
 android.release_artifact = aab
