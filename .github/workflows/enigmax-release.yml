@@ -1,0 +1,78 @@
+name: EnigMax 1.5.6 API36 - Signed AAB
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 120
+    env:
+      ANDROID_NDK_VERSION: "28.2.13676358"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Linux dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git zip unzip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo6 cmake libffi-dev libssl-dev automake gettext
+      - uses: android-actions/setup-android@v3
+      - name: Android API 36 and NDK r28c
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" "ndk;${ANDROID_NDK_VERSION}"
+          echo "ANDROIDSDK=$ANDROID_SDK_ROOT" >> "$GITHUB_ENV"
+          echo "ANDROIDNDK=$ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
+          echo "ANDROID_NDK_HOME=$ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
+          sed -i "s|^android.ndk_path *=.*|android.ndk_path = $ANDROID_SDK_ROOT/ndk/${ANDROID_NDK_VERSION}|" buildozer.spec
+      - name: Buildozer toolchain
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install buildozer==1.5.0 cython==0.29.33 python-for-android==2024.01.21
+      - name: Restore signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.ENIGMAX_KEYSTORE_B64 }}
+        run: |
+          test -n "$KEYSTORE_B64" || { echo "::error::ENIGMAX_KEYSTORE_B64 missing"; exit 1; }
+          printf '%s' "$KEYSTORE_B64" | base64 --decode > enigmax_release.jks
+          chmod 600 enigmax_release.jks
+      - name: EnigMax static gate
+        run: python scripts/enigmax_ci_gate.py --release
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.buildozer
+            .buildozer
+          key: enigmax-156-api36-r28c-release-${{ runner.os }}-${{ hashFiles('buildozer.spec') }}
+      - name: Build signed release AAB
+        env:
+          P4A_RELEASE_KEYSTORE: ${{ github.workspace }}/enigmax_release.jks
+          P4A_RELEASE_KEYALIAS: ${{ secrets.ENIGMAX_KEY_ALIAS }}
+          P4A_RELEASE_KEYSTORE_PASSWD: ${{ secrets.ENIGMAX_KEYSTORE_PASSWORD }}
+          P4A_RELEASE_KEYALIAS_PASSWD: ${{ secrets.ENIGMAX_KEY_PASSWORD }}
+        run: |
+          set -o pipefail
+          buildozer -v android release 2>&1 | tee build-release.log
+      - name: Verify AAB
+        run: |
+          AAB="$(find bin -maxdepth 1 -type f -name '*.aab' | head -n1)"
+          test -n "$AAB" || { echo "::error::AAB not produced"; exit 1; }
+          jarsigner -verify -verbose -certs "$AAB" | tee aab-signature.txt
+          grep -qi "jar verified" aab-signature.txt
+      - name: Collect
+        if: always()
+        run: |
+          mkdir -p ci-artifacts
+          find bin -maxdepth 1 -type f \( -name "*.aab" -o -name "*.apk" \) -exec cp -v {} ci-artifacts/ \; 2>/dev/null || true
+          cp build-release.log aab-signature.txt ci-artifacts/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ENIGMAX-1.5.6-API36-SIGNED-AAB
+          path: ci-artifacts/
+          if-no-files-found: warn

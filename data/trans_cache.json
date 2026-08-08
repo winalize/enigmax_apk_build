@@ -1,0 +1,199 @@
+{
+  "39 dakika": {
+    "fr": "39 minutes",
+    "tr": "39 dakika",
+    "en": "39 minutes",
+    "de": "39 Minuten",
+    "es": "39 minutos",
+    "it": "39 minuti",
+    "pt": "39 minutos",
+    "ru": "39 минут"
+  },
+  "Premier Lig": {
+    "fr": "Premier League",
+    "en": "Premier League",
+    "it": "Premier League",
+    "tr": "Premier Lig",
+    "de": "Premier League",
+    "ru": "Премьер-лига",
+    "es": "Premier League",
+    "pt": "Premier League"
+  },
+  "Russia": {
+    "fr": "Russie",
+    "en": "Russia",
+    "it": "Russia",
+    "tr": "Rusya",
+    "de": "Russland",
+    "ru": "Россия",
+    "es": "Rusia",
+    "pt": "Rússia"
+  },
+  "Eredivisie": {
+    "fr": "Eredivisie",
+    "en": "Eredivisie",
+    "it": "Eredivisie",
+    "tr": "Eredivisie",
+    "de": "Eredivisie",
+    "ru": "Эредивизи",
+    "es": "Eredivisie",
+    "pt": "Eredivisie"
+  },
+  "Netherlands": {
+    "fr": "Pays-Bas",
+    "en": "Netherlands",
+    "it": "Paesi Bassi",
+    "tr": "Hollanda",
+    "de": "Niederlande",
+    "ru": "Нидерланды",
+    "es": "Países Bajos",
+    "pt": "Países Baixos"
+  },
+  "Serie A": {
+    "fr": "Série A",
+    "en": "Serie A",
+    "it": "Serie A",
+    "tr": "Seri A",
+    "de": "Serie A",
+    "ru": "Серия А",
+    "es": "Serie A",
+    "pt": "Serie A"
+  },
+  "Portugal": {
+    "fr": "Portugal",
+    "en": "Portugal",
+    "it": "Portogallo",
+    "tr": "Portekiz",
+    "de": "Portugal",
+    "ru": "Португалия",
+    "es": "Portugal",
+    "pt": "Portugal"
+  },
+  "42 dakika": {
+    "en": "42 minutes",
+    "tr": "42 dakika",
+    "de": "42 Minuten",
+    "fr": "42 minutes",
+    "es": "42 minutos",
+    "it": "42 minuti",
+    "pt": "42 minutos",
+    "ru": "42 минут"
+  },
+  "DFB Kupası Son 16 Turu": {
+    "en": "DFB Cup Round of 16",
+    "tr": "DFB Kupası Son 16 Turu",
+    "fr": "Huitièmes de finale de la Coupe DFB",
+    "ru": "Кубок Германии, 1/8 финала",
+    "de": "Achtelfinale im DFB-Pokal",
+    "pt": "Oitavas de final da Copa DFB",
+    "it": "Ottavi di finale della Coppa DFB",
+    "es": "DFB Cup Round of 16"
+  },
+  "LaLiga": {
+    "tr": "La Liga",
+    "fr": "Liga",
+    "en": "LaLiga",
+    "ru": "Ла Лига",
+    "de": "LaLiga",
+    "es": "LaLiga",
+    "it": "LaLiga",
+    "pt": "LaLiga"
+  },
+  "Ülkeler": {
+    "tr": "Ülkeler",
+    "de": "Länder",
+    "ru": "Страны",
+    "pt": "Países",
+    "it": "Paesi",
+    "en": "Countries",
+    "fr": "Pays",
+    "es": "Países"
+  },
+  "Hazırlık": {
+    "tr": "Hazırlık",
+    "de": "Vorbereitung",
+    "ru": "Подготовка",
+    "pt": "Amistoso",
+    "it": "Preparazione",
+    "en": "Friendly",
+    "fr": "Amical",
+    "es": "Amistoso"
+  },
+  "Ligue 1": {
+    "tr": "Lig 1"
+  },
+  "Kulüpler": {
+    "en": "clubs"
+  },
+  "Süper Kupa": {
+    "en": "Super Cup"
+  },
+  "FA Cup 3.Tur": {
+    "tr": "FA Kupası 3. Tur",
+    "en": "FA Cup 3. Tour",
+    "ru": "Кубок Англии 3. Тур",
+    "es": "Copa FA 3. Gira",
+    "fr": "FA Cup 3. Tournée"
+  },
+  "Kupa Grup A": {
+    "tr": "Kupa A Grubu"
+  },
+  "66 dakika": {
+    "en": "66 minutes"
+  },
+  "92 dakika": {
+    "en": "92 minutes",
+    "ru": "92 минуты"
+  },
+  "KNVB Kupası Son 16 Turu": {
+    "en": "KNVB Cup Round of 16",
+    "ru": "Кубок КНВБ, 1/8 финала"
+  },
+  "67 dakika": {
+    "ru": "67 минут",
+    "en": "67 minutes"
+  },
+  "Pro Lig": {
+    "tr": "Profesyonel Lig"
+  },
+  "Belgium": {
+    "tr": "Belçika"
+  },
+  "Ligue 2": {
+    "tr": "Lig 2"
+  },
+  "Championship": {
+    "tr": "Şampiyona"
+  },
+  "Süper Lig": {
+    "en": "Super League",
+    "fr": "Super Ligue"
+  },
+  "4 dakika": {
+    "en": "4 minutes"
+  },
+  "82 dakika": {
+    "en": "82 minutes"
+  },
+  "Australia": {
+    "tr": "Avustralya"
+  },
+  "United Arab Emirates": {
+    "tr": "Birleşik Arap Emirlikleri"
+  },
+  "Japan": {
+    "tr": "Japonya"
+  },
+  "Finland": {
+    "tr": "Finlandiya"
+  },
+  "Poland": {
+    "tr": "Polonya"
+  },
+  "Ireland": {
+    "tr": "İrlanda"
+  },
+  "Norway": {
+    "tr": "Norveç"
+  }
+}

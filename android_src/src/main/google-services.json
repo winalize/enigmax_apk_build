@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653600904680",
+    "project_id": "winalize-enigmax",
+    "storage_bucket": "winalize-enigmax.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653600904680:android:c9143e633f5f6b2618c05d",
+        "android_client_info": {
+          "package_name": "org.winalize.enigmax"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMQuAW4EyZjNdSkhBqYEZa6qOMqnU_4hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

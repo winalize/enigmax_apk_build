@@ -1,0 +1,153 @@
+{
+  "tr": {
+    "green": {
+      "title": "Durum Normal",
+      "body": "Uluslararası, lig veya milli maç bulunmuyor.\nAnalizler standart doğruluk aralığında çalışır."
+    },
+    "orange": {
+      "title": "Yaklaşan Maçlar",
+      "body": "10 gün içinde uluslararası, lig veya milli maç bulunuyor.\nDikkat, düşük de olsa hata payını göz önünde bulundurun."
+    },
+    "red": {
+      "title": "Yüksek Risk Uyarısı",
+      "body": "5 günlük süreç içinde uluslararası, lig veya milli maç bulunuyor.\nDikkat, bu gibi durumlarda hata payı hesaplanamaz."
+    },
+    "worldcup": {
+      "title": "Dünya Kupası 2026",
+      "body": "2026 Dünya Kupası zamanı"
+    }
+  },
+
+  "en": {
+    "green": {
+      "title": "System Normal",
+      "body": "No international, league, or national matches detected.\nAnalyses operate within standard accuracy ranges."
+    },
+    "orange": {
+      "title": "Upcoming Matches",
+      "body": "International, league, or national matches detected within 10 days.\nPlease consider a possible margin of error."
+    },
+    "red": {
+      "title": "High Risk Warning",
+      "body": "International, league, or national matches detected within a 5-day period.\nIn such cases, the margin of error cannot be calculated."
+    },
+    "worldcup": {
+      "title": "World Cup 2026",
+      "body": "Time for the 2026 World Cup"
+    }
+  },
+
+  "de": {
+    "green": {
+      "title": "Normaler Zustand",
+      "body": "Keine internationalen, Liga- oder Nationalspiele erkannt.\nAnalysen arbeiten im normalen Genauigkeitsbereich."
+    },
+    "orange": {
+      "title": "Bevorstehende Spiele",
+      "body": "Internationale, Liga- oder Nationalspiele innerhalb von 10 Tagen erkannt.\nBitte berücksichtigen Sie eine mögliche Fehlertoleranz."
+    },
+    "red": {
+      "title": "Hohes Risiko",
+      "body": "Internationale, Liga- oder Nationalspiele innerhalb von 5 Tagen erkannt.\nIn solchen Fällen kann die Fehlertoleranz nicht berechnet werden."
+    },
+    "worldcup": {
+      "title": "Weltmeisterschaft 2026",
+      "body": "Zeit für die Weltmeisterschaft 2026"
+    }
+  },
+
+  "fr": {
+    "green": {
+      "title": "Situation Normale",
+      "body": "Aucun match international, de ligue ou national détecté.\nLes analyses fonctionnent dans les marges normales."
+    },
+    "orange": {
+      "title": "Matchs à Venir",
+      "body": "Des matchs internationaux, de ligue ou nationaux sont prévus dans les 10 jours.\nVeuillez prendre en compte une possible marge d’erreur."
+    },
+    "red": {
+      "title": "Alerte Risque Élevé",
+      "body": "Des matchs internationaux, de ligue ou nationaux sont prévus dans les 5 jours.\nDans ces cas, la marge d’erreur ne peut pas être calculée."
+    },
+    "worldcup": {
+      "title": "Coupe du Monde 2026",
+      "body": "L'heure de la Coupe du Monde 2026"
+    }
+  },
+
+  "it": {
+    "green": {
+      "title": "Situazione Normale",
+      "body": "Nessuna partita internazionale, di lega o nazionale rilevata.\nLe analisi funzionano entro margini standard."
+    },
+    "orange": {
+      "title": "Partite in Arrivo",
+      "body": "Partite internazionali, di lega o nazionali previste entro 10 giorni.\nSi consiglia di considerare un possibile margine di errore."
+    },
+    "red": {
+      "title": "Avviso di Alto Rischio",
+      "body": "Partite internazionali, di lega o nazionali previste entro 5 giorni.\nIn tali casi, il margine di errore non può essere calcolato."
+    },
+    "worldcup": {
+      "title": "Coppa del Mondo 2026",
+      "body": "È tempo della Coppa del Mondo 2026"
+    }
+  },
+
+  "es": {
+    "green": {
+      "title": "Estado Normal",
+      "body": "No se detectaron partidos internacionales, de liga o nacionales.\nLos análisis operan dentro de los rangos normales."
+    },
+    "orange": {
+      "title": "Partidos Próximos",
+      "body": "Se detectaron partidos internacionales, de liga o nacionales dentro de 10 días.\nConsidere un posible margen de error."
+    },
+    "red": {
+      "title": "Advertencia de Alto Riesgo",
+      "body": "Se detectaron partidos internacionales, de liga o nacionales dentro de 5 días.\nEn tales casos, el margen de error no puede calcularse."
+    },
+    "worldcup": {
+      "title": "Copa Mundial 2026",
+      "body": "Es hora de la Copa Mundial 2026"
+    }
+  },
+
+  "pt": {
+    "green": {
+      "title": "Estado Normal",
+      "body": "Nenhuma partida internacional, de liga ou nacional detectada.\nAs análises operam dentro dos limites padrão."
+    },
+    "orange": {
+      "title": "Partidas Próximas",
+      "body": "Partidas internacionais, de liga ou nacionais detectadas dentro de 10 dias.\nConsidere uma possível margem de erro."
+    },
+    "red": {
+      "title": "Aviso de Alto Risco",
+      "body": "Partidas internacionais, de liga ou nacionais detectadas dentro de 5 dias.\nNesses casos, a margem de erro não pode ser calculada."
+    },
+    "worldcup": {
+      "title": "Copa do Mundo 2026",
+      "body": "Hora da Copa do Mundo 2026"
+    }
+  },
+
+  "ru": {
+    "green": {
+      "title": "Нормальное Состояние",
+      "body": "Международные, лиговые или национальные матчи не обнаружены.\nАнализ работает в стандартных пределах точности."
+    },
+    "orange": {
+      "title": "Предстоящие Матчи",
+      "body": "Международные, лиговые или национальные матчи обнаружены в течение 10 дней.\nУчитывайте возможную погрешность."
+    },
+    "red": {
+      "title": "Высокий Риск",
+      "body": "Международные, лиговые или национальные матчи обнаружены в течение 5 дней.\nВ таких случаях погрешность не поддаётся расчёту."
+    },
+    "worldcup": {
+      "title": "Чемпионат мира 2026",
+      "body": "Время чемпионата мира 2026"
+    }
+  }
+}

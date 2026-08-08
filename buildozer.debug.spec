@@ -19,6 +19,7 @@ icon.filename = icon.png
 presplash.filename = presplash.png
 
 p4a.bootstrap = sdl2
+# p4a.source_dir = /root/enigmax/p4a
 
 android.archs = arm64-v8a
 
@@ -26,6 +27,7 @@ android.sdk_path = /opt/android_sdk
 android.ndk_path = /opt/android_ndk_r28c
 
 android.api = 36
+android.gradle_options = compileSdkVersion=36
 android.minapi = 26
 android.ndk = 28c
 android.ndk_api = 26
@@ -47,13 +49,14 @@ android.gradle_dependencies = \
     com.google.android.play:review:2.0.2,\
     com.google.android.gms:play-services-tasks:18.2.0
 
-android.build_type = release
-android.release_artifact = aab
+android.build_type = debug
+# android.bundle = True
+# android.release_artifact = aab
 
-android.keystore = /root/enigmax/enigmax_release.jks
-android.keystore_password = 21011982
-android.keyalias = enigmaxkey
-android.keyalias_password = 21011982
+# android.keystore = /root/enigmax/enigmax_release.jks
+# android.keystore_password = 210182
+# android.keyalias = enigmaxkey
+# android.keyalias_password = 210182
 
 [buildozer]
 warn_on_root = 0

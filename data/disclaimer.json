@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "updated_at": "2026-01-25",
+  "acceptance_text": {
+    "tr": "{date} tarihinde kullanıcı tarafından kabul edilmiştir.",
+    "en": "Accepted by the user on {date}.",
+    "de": "Vom Benutzer am {date} akzeptiert.",
+    "fr": "Accepté par l’utilisateur le {date}.",
+    "es": "Aceptado por el usuario el {date}.",
+    "it": "Accettato dall’utente il {date}.",
+    "pt": "Aceito pelo usuário em {date}.",
+    "ru": "Принято пользователем {date}."
+  },
+  "texts": {
+    "tr": {
+      "title": "Yasal Bildirim",
+      "body": "Enigmax, istatistiksel veriler ve algoritmik analizler kullanarak yalnizca bilgilendirme amacli icerik sunan bir veri ve analiz uygulamasidir. Uygulamada yer alan bilgiler; finansal danismanlik, yatirim danismanligi, bahis danismanligi veya herhangi bir sonucun ya da kazancin garantisi niteligi tasimaz.\n\nUygulama icerisinde sunulan analizler, tahminler, istatistikler ve yorumlar kesinlik icermez. Bu iceriklere dayanilarak alinacak tum kararlar ve gerceklestirilecek tum islemler tamamen kullanicinin kendi sorumlulugundadir.\n\nEnigmax ve Winalize Sports; uygulamanin kullanimindan, uygulamada yer alan iceriklere dayanilarak alinan kararlardan veya bu kararlar sonucunda ortaya cikabilecek dogrudan ya da dolayli hicbir maddi veya manevi zarardan sorumlu tutulamaz.\n\nUygulama bahis hizmeti sunmaz, bahis oynatmaz, bahis icin odeme almaz ve uyelik veya abonelik gerektirmez."
+    },
+    "en": {
+      "title": "Legal Notice",
+      "body": "Enigmax is a data and analysis application that provides content for informational purposes only, using statistical data and algorithmic analyses. The information presented in the application does not constitute financial advice, investment advice, betting advice, or a guarantee of any outcome or profit.\n\nThe analyses, predictions, statistics, and interpretations provided within the application are not definitive. All decisions made and actions taken based on this content are entirely the responsibility of the user.\n\nEnigmax and Winalize Sports shall not be held liable for any direct or indirect material or non-material damages arising from the use of the application or from decisions made based on its content.\n\nThe application does not provide betting services, does not accept payments for betting, and does not require membership or subscription."
+    },
+    "de": {
+      "title": "Rechtlicher Hinweis",
+      "body": "Enigmax ist eine Daten- und Analyseanwendung, die mithilfe statistischer Daten und algorithmischer Analysen Inhalte ausschliesslich zu Informationszwecken bereitstellt. Die in der Anwendung enthaltenen Informationen stellen keine Finanzberatung, Anlageberatung, Wettberatung oder Garantie fuer ein bestimmtes Ergebnis oder einen Gewinn dar.\n\nDie innerhalb der Anwendung bereitgestellten Analysen, Prognosen, Statistiken und Bewertungen sind nicht verbindlich. Alle auf Grundlage dieser Inhalte getroffenen Entscheidungen und durchgefuehrten Handlungen erfolgen ausschliesslich auf eigene Verantwortung des Nutzers.\n\nEnigmax und Winalize Sports uebernehmen keine Haftung fuer direkte oder indirekte materielle oder immaterielle Schaeden, die aus der Nutzung der Anwendung oder aus Entscheidungen auf Grundlage der bereitgestellten Inhalte entstehen.\n\nDie Anwendung bietet keine Wett-Dienstleistungen an, nimmt keine Zahlungen fuer Wetten entgegen und erfordert keine Mitgliedschaft oder ein Abonnement."
+    },
+    "fr": {
+      "title": "Mention Legale",
+      "body": "Enigmax est une application de donnees et d’analyse qui fournit des contenus uniquement a des fins d’information, sur la base de donnees statistiques et d’analyses algorithmiques. Les informations presentees ne constituent pas un conseil financier, un conseil en investissement, un conseil en paris ni une garantie de resultat ou de gain.\n\nLes analyses, previsions, statistiques et commentaires proposes dans l’application ne sont pas definitifs. Toutes les decisions prises et actions entreprises sur la base de ces contenus relevent de la seule responsabilite de l’utilisateur.\n\nEnigmax et Winalize Sports ne sauraient etre tenus responsables de tout dommage direct ou indirect, materiel ou immateriel, resultant de l’utilisation de l’application ou des decisions prises sur la base de son contenu.\n\nL’application ne propose aucun service de paris, n’accepte aucun paiement lie aux paris et ne necessite aucun abonnement ou adhesion."
+    },
+    "es": {
+      "title": "Aviso Legal",
+      "body": "Enigmax es una aplicacion de datos y analisis que ofrece contenido unicamente con fines informativos, utilizando datos estadisticos y analisis algoritmicos. La informacion proporcionada no constituye asesoramiento financiero, asesoramiento de inversion, asesoramiento en apuestas ni garantia de ningun resultado o ganancia.\n\nLos analisis, predicciones, estadisticas y comentarios incluidos en la aplicacion no son definitivos. Todas las decisiones tomadas y acciones realizadas basandose en dichos contenidos son responsabilidad exclusiva del usuario.\n\nEnigmax y Winalize Sports no se hacen responsables de ningun dano directo o indirecto, material o inmaterial, que pueda derivarse del uso de la aplicacion o de decisiones tomadas en base a su contenido.\n\nLa aplicacion no ofrece servicios de apuestas, no acepta pagos relacionados con apuestas y no requiere suscripcion ni afiliacion."
+    },
+    "it": {
+      "title": "Avvertenza Legale",
+      "body": "Enigmax e un’applicazione di dati e analisi che fornisce contenuti esclusivamente a scopo informativo, utilizzando dati statistici e analisi algoritmiche. Le informazioni presenti nell’applicazione non costituiscono consulenza finanziaria, consulenza sugli investimenti, consulenza sulle scommesse ne una garanzia di risultati o profitti.\n\nLe analisi, le previsioni, le statistiche e le valutazioni fornite all’interno dell’applicazione non sono definitive. Tutte le decisioni prese e le azioni intraprese sulla base di tali contenuti sono sotto la totale responsabilita dell’utente.\n\nEnigmax e Winalize Sports non possono essere ritenuti responsabili per eventuali danni diretti o indiretti, materiali o immateriali, derivanti dall’uso dell’applicazione o da decisioni basate sui suoi contenuti.\n\nL’applicazione non fornisce servizi di scommesse, non accetta pagamenti per scommesse e non richiede alcuna iscrizione o abbonamento."
+    },
+    "pt": {
+      "title": "Aviso Legal",
+      "body": "Enigmax e uma aplicacao de dados e analises que fornece conteudos exclusivamente para fins informativos, utilizando dados estatisticos e analises algoritmicas. As informacoes apresentadas nao constituem aconselhamento financeiro, aconselhamento de investimento, aconselhamento sobre apostas nem garantem qualquer resultado ou lucro.\n\nAs analises, previsoes, estatisticas e interpretacoes disponibilizadas na aplicacao nao sao definitivas. Todas as decisoes tomadas e acoes realizadas com base nesses conteudos sao de inteira responsabilidade do utilizador.\n\nA Enigmax e a Winalize Sports nao se responsabilizam por quaisquer danos diretos ou indiretos, materiais ou imateriais, resultantes da utilizacao da aplicacao ou de decisoes tomadas com base no seu conteudo.\n\nA aplicacao nao oferece servicos de apostas, nao aceita pagamentos relacionados com apostas e nao requer adesao ou subscricao."
+    },
+    "ru": {
+      "title": "Yuridicheskoe uvedomlenie",
+      "body": "Enigmax yavlyaetsya prilozheniem dlya analiza dannykh, kotoroe predostavlyaet kontent isklyuchitelno v informatsionnykh tselyakh, ispolzuya statisticheskie dannye i algoritmicheskii analiz. Informatsiya, predstavlennaya v prilozhenii, ne yavlyaetsya finansovoi konsultatsiei, investitsionnoi konsultatsiei, konsultatsiei po stavkam i ne garantiruet kakoi-libo rezultat ili pribyl.\n\nAnalizy, prognozy, statistika i kommentarii, predstavlennye v prilozhenii, ne yavlyayutsya okonchatelnymi. Vse resheniya i deistviya, predprinyatye na osnove dannoi informatsii, osushchestvlyayutsya isklyuchitelno na otvetstvennost polzovatelya.\n\nEnigmax i Winalize Sports ne nesut otvetstvennosti za lyubye pryamye ili kosvennye materialnye ili nematerialnye ubytki, voznikshie v rezul'tate ispol'zovaniya prilozheniya ili reshenii, prinyatykh na osnove ego soderzhaniya.\n\nPrilozhenie ne predostavlyaet uslug po priemu stavok, ne prinimaet platezhi za stavki i ne trebuet registratsii ili podpiski."
+    }
+  }
+}

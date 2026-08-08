@@ -1,0 +1,7 @@
+
+enigmax_release.jks
+*.jks
+*.keystore
+.buildozer/
+bin/
+ci-artifacts/
