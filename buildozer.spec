@@ -9,8 +9,8 @@ source.include_exts = py,kv,png,jpg,atlas,gif,json,mp4
 
 android.add_src = android_src
 
-version = 1.5.6
-android.numeric_version = 105060000
+version = 1.1.1
+android.numeric_version = 100000000
 
 orientation = portrait
 fullscreen = 1
